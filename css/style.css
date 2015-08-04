@@ -1,0 +1,84 @@
+.wcp-right {
+	width: 500px;
+	position: fixed;
+	right: -450px;
+	top: 100px;
+	z-index: 99999;
+}
+.wcp-right .sc-icon {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: #fff;
+	cursor: pointer;
+	border: 2px solid #000;
+	border-right: 0;
+}
+.wcp-right .sc-icon span {
+	font-size: 50px;
+	display: none;
+}
+.wcp-right .sc-cart-contents {
+	position: absolute;
+	left: 50px;
+	top: 0;
+	width: 450px;
+	background-color: #fff;
+	min-height: 300px;
+	background-image: url('../images/ajax-loader.gif');
+	background-position: center center;
+	background-repeat: no-repeat;
+	border: 2px solid #000;
+	overflow: hidden;
+	padding: 10px;
+
+}
+#preview-overlay {
+	display: none;
+	background-color: rgba(0,0,0,.2);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 50;	
+}
+.wcp-left {
+	width: 500px;
+	position: fixed;
+	left: -450px;
+	top: 100px;
+	z-index: 99999;
+}
+.wcp-left .sc-icon {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-color: #fff;
+	cursor: pointer;
+	border: 2px solid #000;
+	border-left: 0;
+}
+.wcp-left .sc-icon span {
+	font-size: 50px;
+	display: none;
+}
+.wcp-left .sc-cart-contents {
+	position: absolute;
+	right: 50px;
+	top: 0;
+	width: 450px;
+	background-color: #fff;
+	min-height: 300px;
+	background-image: url('../images/ajax-loader.gif');
+	background-position: center center;
+	background-repeat: no-repeat;
+	border: 2px solid #000;
+	overflow: hidden;
+	padding: 10px;
+
+}
